@@ -13,7 +13,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             text-align: center;
         }
@@ -35,6 +35,10 @@
         }
         .links {
             margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
         }
         .btn {
             display: inline-block;
@@ -44,7 +48,7 @@
             padding: 12px 30px;
             border-radius: 50px;
             font-weight: bold;
-            margin: 10px; /* Margen para separar los botones si se juntan */
+            min-width: 220px;
             transition: all 0.3s ease;
         }
         .btn:hover {
@@ -70,6 +74,7 @@
             <p>Echa un vistazo a nuestros juegos:</p>
             <a href="https://culpuyls.github.io/bearslot-game/" class="btn">Jugar a BearSlot Game</a>
             <a href="https://culpuyls.github.io/blockboom-game/" class="btn">Jugar a BlockBoom</a>
+            <a href="https://culpuyls.github.io/aquapredator/index.html" class="btn">Jugar a Aqua Predator</a>
         </div>
     </div>
 
